@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae888c3f-031b-4334-ab6d-f5e3ffad0ea3">
+  <producedTypes>
+    <refType typeId="6b64d28c-c861-4699-8620-3ec7bd4030f9" valueTypeId="b282ef0d-e66f-4cc0-8a58-675dfe0c358d"/>
+    <listType typeId="2bccc6e2-0a93-4543-97b8-2ff58e0aa7cb" valueTypeId="e5aa8720-1d4a-4d42-81b8-3467e4a219ac"/>
+    <managerType typeId="d76f1bf4-48ba-48b5-9ed1-35b6450de657" valueTypeId="4ccffa30-ddb5-4d67-9d2b-dcaf2ea06996"/>
+  </producedTypes>
+  <name>инкУсловияТрудаПодкласс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия труда под класс</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="39fa492e-3dad-4921-a45e-581ba8361294">
+    <name>Подкласс4</name>
+    <synonym>
+      <key>ru</key>
+      <value>4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3906673b-8681-4957-a547-abde28408690">
+    <name>Подкласс34</name>
+    <synonym>
+      <key>ru</key>
+      <value>3.4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4f9eae1-79f3-4528-89f2-d822aced24c1">
+    <name>Подкласс33</name>
+    <synonym>
+      <key>ru</key>
+      <value>3.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdf657e1-6963-4ea2-98ea-707e69210088">
+    <name>Подкласс32</name>
+    <synonym>
+      <key>ru</key>
+      <value>3.2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bc4ab9e-ff6d-4292-b059-b32a6655730a">
+    <name>Подкласс31</name>
+    <synonym>
+      <key>ru</key>
+      <value>3.1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d87db5b-785c-490a-baf8-b563af2f1131">
+    <name>Подкласс2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7cc35c2d-f940-4776-b15f-0ac0dd039ab9">
+    <name>Подкласс1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88578668-affa-4a71-b93a-43b9431448ec">
+  <name>инкПодразделенияДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения добавление/изменение (Инкомсофт)</value>
+  </synonym>
+</mdclass:Role>

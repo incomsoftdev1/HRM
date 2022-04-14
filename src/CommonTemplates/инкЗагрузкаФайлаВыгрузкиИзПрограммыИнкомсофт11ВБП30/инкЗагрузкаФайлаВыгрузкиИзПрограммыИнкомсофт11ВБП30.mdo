@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df1ac760-6303-4b1c-8bf2-70e7e7de3d45">
+  <name>инкЗагрузкаФайлаВыгрузкиИзПрограммыИнкомсофт11ВБП30</name>
+  <synonym>
+    <key>ru</key>
+    <value>инкЗагрузкаФайлаВыгрузкиИзПрограммыИнкомсофт11ВБП30.epf</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

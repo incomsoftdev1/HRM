@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a9f57b1-22ae-48d4-9200-4c6ad2f2a8d3">
+  <producedTypes>
+    <refType typeId="70be4360-b9f5-4ce4-8436-143021a357d7" valueTypeId="c498163f-a919-45f9-a1d6-bad561b7efeb"/>
+    <listType typeId="09b869d3-8c0b-4bb2-9b36-660b8e299a58" valueTypeId="f11d5c8a-a82c-41de-af4a-6da5470d2edb"/>
+    <managerType typeId="79db8b83-6cf8-4a4d-b0d2-8032972a5d96" valueTypeId="47af9013-ac0b-4a04-8708-0b76c3be437d"/>
+  </producedTypes>
+  <name>инкВидРасчетаДниЧасы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид расчета дни часы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="70f9f13e-30c6-4891-96ca-be8022e8ae72">
+    <name>ВДнях</name>
+    <synonym>
+      <key>ru</key>
+      <value>В днях</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="759cee5e-15c9-48ff-a1c9-968a31ef61f8">
+    <name>ВЧасах</name>
+    <synonym>
+      <key>ru</key>
+      <value>В часах</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

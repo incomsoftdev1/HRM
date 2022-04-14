@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4033228b-704b-441e-8823-6547b38efc73">
+  <producedTypes>
+    <objectType typeId="eaf83db5-8a71-4eba-93c5-294410bc1fb4" valueTypeId="8572df48-b5da-4c9c-a72f-db20e9168b6b"/>
+    <managerType typeId="682b2d48-42ab-4955-9bf0-3b0c2fb16790" valueTypeId="b1d0e754-4b75-4d15-823b-49789852d695"/>
+  </producedTypes>
+  <name>инкРасчетВзносов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет взносов (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкРасчетВзносов.Form.ФормаОтладки</defaultForm>
+  <forms uuid="df7a104a-43c1-4397-9ec3-0039044657dd">
+    <name>ФормаОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отладки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bbd15072-271f-4b39-ba99-5eaec3a68458">
+    <name>ФормаОтчетаАналитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>6-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6ec446b2-67e0-4083-a323-f6d7da4ddf88">
+    <name>Взносы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы</value>
+    </synonym>
+  </templates>
+  <templates uuid="e81ed046-5571-49f5-848f-0b429b92b900">
+    <name>ПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ</value>
+    </synonym>
+  </templates>
+  <templates uuid="0e86465c-a15d-4542-b433-bcd3e3624516">
+    <name>Инвалиды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвалиды</value>
+    </synonym>
+  </templates>
+  <templates uuid="b6fb0078-e0d7-4997-b581-06aba261a2e3">
+    <name>ВзносыМСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы МСБ</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

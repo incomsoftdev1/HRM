@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c8f3d96-92ae-4752-987e-7a8c1b76bf7a">
+  <producedTypes>
+    <refType typeId="018bd938-400e-4c4d-a6f9-7d1a028a2227" valueTypeId="2f636369-e7fe-47f7-94e8-b186736e6351"/>
+    <listType typeId="319c49ab-70ef-420d-9881-8b6028eb7516" valueTypeId="582dd006-7d0b-47de-9d4f-34990cb31fd0"/>
+    <managerType typeId="615283c7-9327-49b1-8f2d-1f0ce495d4c3" valueTypeId="cfe24937-2499-42cb-8287-915e1dc038a3"/>
+  </producedTypes>
+  <name>инкВидыПособий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды пособий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dbe85960-a0c2-4520-bb30-20e1d44fbdcf">
+    <name>ПособиеПоВременнойНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пособие по временной нетрудоспособности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f60cfc2-8658-4774-814b-c1285276c6c7">
+    <name>ПособиеПоВременнойНетрудоспособностиЗаСчетРаботодателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пособие по временной нетрудоспособности за счет работодателя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ee61149-5f99-40ec-ada4-aa8c6f17275c">
+  <name>инкСотрудникиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники сервер (Инкомсофт)</value>
+  </synonym>
+  <comment>Процедуры и функции получающие данных о сотрудниках</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

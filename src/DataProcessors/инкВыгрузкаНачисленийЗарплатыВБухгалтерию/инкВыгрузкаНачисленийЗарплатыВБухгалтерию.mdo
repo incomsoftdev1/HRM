@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4475ac18-127c-47bf-88d9-88ca69125bdd">
+  <producedTypes>
+    <objectType typeId="393d8f43-e73e-4d02-9b0e-915e901f8b50" valueTypeId="1b5a68b7-4498-44c3-9850-c745a679a1a1"/>
+    <managerType typeId="c202e149-d5b4-4256-b189-8fa175aa2498" valueTypeId="502f4004-11ce-4bd3-8740-edef16a42cd3"/>
+  </producedTypes>
+  <name>инкВыгрузкаНачисленийЗарплатыВБухгалтерию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка начислений зарплаты в бухгалтерию (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкВыгрузкаНачисленийЗарплатыВБухгалтерию.Form.Форма</defaultForm>
+  <attributes uuid="e68f9773-a4c3-4555-bd77-faa791a22ea1">
+    <name>ПериодВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период выгрузки</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="227592d6-6509-4e8e-b1e5-e5b5f40908fc">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c59207d2-af6e-4fcc-9655-acb8725e3384">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cc1461b5-b168-4fdc-822d-766896fbae92">
+    <name>ПравилаВыгрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила выгрузки данных</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

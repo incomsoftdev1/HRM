@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b58e2bd-5aef-44ec-b5d9-de3fcc651276">
+  <producedTypes>
+    <refType typeId="18b2d65e-9b0d-40ec-8a63-7d3e14a81b83" valueTypeId="823bf59b-2551-4ed2-9369-a2101df543df"/>
+    <listType typeId="3b6ee37c-38ac-4ea7-a419-618819c84e23" valueTypeId="022a0e6b-3b13-4d0a-90ae-3ed717819246"/>
+    <managerType typeId="0b3f775d-6d23-4db2-84d3-b8104e27d4d0" valueTypeId="3480f083-2420-455d-b184-90eabb30e5f0"/>
+  </producedTypes>
+  <name>инкГруппыВычетовПоНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инк группы вычетов по НДФЛ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="72fd9ae4-f34e-44ae-93ba-b3e7caaa63b2">
+    <name>Стандартные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92066ac5-0628-497b-8246-44403c13868b">
+    <name>СтандартныеНаДетей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартные на детей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc4dbb30-8544-4e87-ab85-3a77f491eded">
+    <name>Имущественные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имущественные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30904ead-cbbe-4993-8c26-92ed3089859d">
+    <name>Социальные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Социальные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31e3f129-0c85-43c1-912c-e8045168dc1b">
+    <name>СоциальныеПоУведомлениюНО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Социальные по уведомлению НО</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

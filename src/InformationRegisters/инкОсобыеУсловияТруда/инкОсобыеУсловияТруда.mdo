@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4c93904-911d-42b7-a2a9-910fa32d2c6f">
+  <producedTypes>
+    <selectionType typeId="b796870d-091f-4519-9ffd-3460bad41d22" valueTypeId="40054804-3368-43ad-97a9-b4063ca4525c"/>
+    <listType typeId="31c91eee-c3d9-49d9-ac66-bca7f264e585" valueTypeId="06ddad57-4416-4f58-bf8c-aeef6fa2145c"/>
+    <managerType typeId="ea736487-70e7-46e5-8165-3b5bdf2e0dbd" valueTypeId="19e88aba-d8e4-4d65-81fd-9e244d4802b2"/>
+    <recordSetType typeId="a3d2e4f9-f20a-4b6e-b5c4-0a096f90d123" valueTypeId="6d34bd59-87c9-4476-b7e6-3b4c7da2a247"/>
+    <recordKeyType typeId="248f81ca-d85c-4b5e-9927-000fea66c8a8" valueTypeId="2fa3e124-2800-4e2d-866a-6c03a5805922"/>
+    <recordType typeId="653fdf8f-f324-429e-ac28-3a9442789229" valueTypeId="18cadc30-6ba6-4af4-a7a5-ef18b2a34f4d"/>
+    <recordManagerType typeId="56276790-f4a1-407f-9fa7-11b59e5ac786" valueTypeId="c7c534ae-88d3-4a07-b587-75bbf7a46b64"/>
+  </producedTypes>
+  <name>инкОсобыеУсловияТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Особые условия труда</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="644e328a-7817-4a51-87d8-061750037951">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f3037756-6225-470e-ba28-8f56a69d99ed">
+    <name>УсловияТрудаКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс условий труда</value>
+    </synonym>
+    <type>
+      <types>EnumRef.инкУсловияТрудаКласс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="acc2c4f1-e65d-473d-aeb0-b05f2fc49b81">
+    <name>УсловияТрудаПодкласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подкласс условий труда</value>
+    </synonym>
+    <type>
+      <types>EnumRef.инкУсловияТрудаПодкласс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

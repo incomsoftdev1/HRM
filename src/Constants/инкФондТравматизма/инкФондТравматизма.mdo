@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70bee376-3519-4f09-bd14-32bc570e0759">
+  <producedTypes>
+    <managerType typeId="849d3932-566f-4a6f-a7e5-f5e60391fe4b" valueTypeId="2e466ba7-b97b-4d59-9e85-d3a6d9d09729"/>
+    <valueManagerType typeId="ef2b7bc2-db12-482c-84b2-754fc3195404" valueTypeId="f915acbf-55ca-470b-a7f0-3e492a8b4b03"/>
+    <valueKeyType typeId="7a52297c-178f-4f7f-a741-b99c8a7625aa" valueTypeId="57c75691-22b0-4e55-8ba2-40f9a35e0441"/>
+  </producedTypes>
+  <name>инкФондТравматизма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фонд травматизма</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

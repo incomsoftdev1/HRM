@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70e947a3-f209-44c6-ab92-c940f56b41a7">
+  <producedTypes>
+    <objectType typeId="858afa0e-08f7-4ebf-a6ef-7b10e0de9cc5" valueTypeId="57f122c4-c933-4e0c-8259-dd852ea12da5"/>
+    <managerType typeId="5557b00b-c5a3-4af2-b2fb-9f39c6b3203e" valueTypeId="6642de1e-8b19-4a3f-927d-83f8046257f1"/>
+  </producedTypes>
+  <name>инкВедомостьНачисленийУдержаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость начислений/удержаний (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкВедомостьНачисленийУдержаний.Form.ФормаОтладки</defaultForm>
+  <forms uuid="4bef7d0f-7bd5-4d78-a963-6c68a1dfbcf0">
+    <name>ФормаОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отладки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de3702c4-b940-476f-a9c7-7341824f19cb">
+    <name>ФормаВедомости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ведомости</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4cef45a1-8c5f-4515-b971-ce89905d8491">
+    <name>МакетВедомостьНачисленийУдержаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет ведомость начислений удержаний</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

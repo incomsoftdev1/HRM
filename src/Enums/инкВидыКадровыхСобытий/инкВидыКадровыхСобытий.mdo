@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3d40e15-b249-4fb4-964a-efb3072a7fc7">
+  <producedTypes>
+    <refType typeId="e3d28319-b78b-42b8-aec4-edcded493180" valueTypeId="51abfc49-68f5-48c6-82bf-63126850c05a"/>
+    <listType typeId="6b5b1372-2a61-49b2-a869-cac0cef8d202" valueTypeId="bb1ec3ed-73fb-4fd0-a183-e4bc0ec6062a"/>
+    <managerType typeId="fda6965b-2e5a-4ae2-93d0-c18033fcd417" valueTypeId="90584614-2163-4b76-ade8-c243f4dcdffc"/>
+  </producedTypes>
+  <name>инкВидыКадровыхСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды кадровых событий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="75f99d2c-5672-4c58-b663-26089b92ae23">
+    <name>Прием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec538eec-4b2e-43e2-9679-e6f33b68aa60">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d3b0501-ff3e-4631-b724-8eabf161c1cf">
+    <name>Увольнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76471bb2-ecdc-4405-99a1-5a66021378f2">
+    <name>НачальныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальные данные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bdfc182-48dd-44d8-b6b8-43d6a508f37e">
+    <name>ВосстановлениеВДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление в должности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65bc98c4-5a2a-4e56-b11b-9354923bff41">
+    <name>НеподтвержденныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неподтвержденные данные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96e69f42-9aca-4cb9-82e1-2cc6935bc850">
+    <name>ИзменениеОплатыТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение оплаты труда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

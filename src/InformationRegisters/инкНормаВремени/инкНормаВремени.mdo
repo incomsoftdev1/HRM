@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="756b31c9-14f8-4e2c-b8f9-a5b925f1b972">
+  <producedTypes>
+    <selectionType typeId="37ac8b9e-4570-410c-9d97-9ad0dc1d27ed" valueTypeId="1e5a1c76-8618-40c5-9fcf-6bc1bbed3621"/>
+    <listType typeId="54849a3b-d4f3-4f48-b1ca-32e1163c85dd" valueTypeId="17e002b1-5b42-4fae-ac40-0ab1674c9540"/>
+    <managerType typeId="e72cdba0-6c80-422e-95e2-c3923bf67c26" valueTypeId="8d011d44-a89c-45ec-a3e0-3412cda57a64"/>
+    <recordSetType typeId="c74a3616-ae5e-4773-b277-bfbb3e3b82fb" valueTypeId="8fdf4dbf-2369-4bd3-a2d0-1c6b2355611a"/>
+    <recordKeyType typeId="3a1e10b4-35bc-431c-ab02-c73446a19854" valueTypeId="b828a25a-4d61-4aef-9dfa-9ec5fde3f521"/>
+    <recordType typeId="3caa2434-cff5-491e-b8c4-e86fc28dd957" valueTypeId="8fefb822-aeb7-4669-bbda-e99e79e6de99"/>
+    <recordManagerType typeId="8e096285-02cb-42eb-91e7-55f8cc7335cf" valueTypeId="bd5b1afa-6656-4afa-9d47-7d95a1d1ddc9"/>
+  </producedTypes>
+  <name>инкНормаВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норма времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.инкНормаВремени.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ebf44e53-9661-4f24-ac4f-0b942b316453">
+    <name>РабочихДнейВМесяце</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раб. дней в месяце</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c2f13c8e-0ddc-4961-9b30-90b6a3635c33">
+    <name>НормаЧасовМужчиныПятидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Н/часов (М5)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0,00</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0,00</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9e5b9b9b-5cbc-4092-988b-6a15f8879746">
+    <name>НормаЧасовЖенщиныПятидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Н/часов (Ж5)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0,00</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0,00</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c1e51c82-2529-42bc-9d22-f7a71e9828d3">
+    <name>Шестидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шестидневка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="38a7ba7f-3f32-4c96-b002-d4f2747dd16f">
+    <name>НормаЧасовМужчиныШестидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Н/часов (М6)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0,00</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0,00</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e7bcf26a-1a46-4d18-b2d0-ef28ac03b694">
+    <name>НормаЧасовЖенщиныШестидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Н/часов (Ж6)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0,00</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0,00</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9503bff5-d3ca-4140-9f37-c54990ea7d10">
+    <name>КалендраныхДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календраных дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2882828a-85aa-4ac7-9ab9-884d7f01286f">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5eed7c96-10b2-41fb-87a9-dd00646a214d">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9d102d2d-8bc7-4461-9836-43b62b1b1b9b">
+    <name>ФормаЗагрузкиСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95485c60-e95a-4baa-abd7-306e328a4c64">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

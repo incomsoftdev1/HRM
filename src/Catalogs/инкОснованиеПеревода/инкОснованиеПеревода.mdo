@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1be7b1c-342b-4ab0-bc84-c3e198415206">
+  <producedTypes>
+    <objectType typeId="689374b6-b123-48cc-95ce-6a0e1cddac96" valueTypeId="dab49617-587e-4cb1-ba36-56296a6bb226"/>
+    <refType typeId="effce9d9-27cc-485f-9a9d-a7d2e56ed398" valueTypeId="f9c8bafa-c5e1-4712-9eb3-e7f6be8fd6a9"/>
+    <selectionType typeId="f7d82bd3-6446-4ba0-a16f-30f6ce73ebaa" valueTypeId="1b2e8a58-5f91-4810-82ea-ab36bf3994f8"/>
+    <listType typeId="6d13bc6a-2b86-460d-adc1-5c74e66f9e71" valueTypeId="5e905573-5a3a-4f7e-8248-c762f399d7df"/>
+    <managerType typeId="bfec46be-15cb-4a85-a5db-d54ea8671710" valueTypeId="a8b345ee-417d-4fe6-9e20-036374bbde29"/>
+  </producedTypes>
+  <name>инкОснованиеПеревода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание перевода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.инкОснованиеПеревода.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.инкОснованиеПеревода.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0721670a-635e-4237-85f2-d90185e788b3">
+      <name>ГрафикОтпусков</name>
+      <description>График отпусков</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4e8334e9-5750-4077-bb50-50de50a334a2">
+      <name>ЛичноеЗаявление</name>
+      <description>Личное заявление</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="e99e1e1b-8f61-461c-955d-ed10b561331d">
+      <name>ПроизводственнаяНеобходимость</name>
+      <description>Производственная необходи</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="00b1d3e9-2b4a-47dc-8bec-da5b6127304b">
+      <name>ТКст77п1</name>
+      <description>ТК, статья 77 п. 1 (по соглашению сторон)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="391c91bb-a74f-4d7b-abd5-c9e2ccd8b41c">
+      <name>ТКст77п11</name>
+      <description>ТК, статья 77 п. 11  (нарушение правил заключения трудового договора)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="2e2a6ca4-a5b5-41cf-869e-debace66acf2">
+      <name>ТКст77п2</name>
+      <description>ТК, статья 77 п. 2 (прекращение срочного трудового договора)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="eed99aa3-0a79-4211-a3d3-5eb5827abcc0">
+      <name>ТКст77п3</name>
+      <description>ТК, статья 77 п. 3 (по собственному желанию)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="31fc41cd-7020-489b-bde2-373e0b60e2ff">
+      <name>ТКст77п4</name>
+      <description>ТК, статья 77 п. 4 (по инициативе работодателя)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bcd12e2-7671-4ac5-9f92-9c59543d6b06">
+  <name>инкОтчетыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты клиент (Инкомсофт)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

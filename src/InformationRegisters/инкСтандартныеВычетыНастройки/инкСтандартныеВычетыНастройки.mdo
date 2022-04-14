@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67efa93f-d662-4650-91aa-b49443c384af">
+  <producedTypes>
+    <selectionType typeId="eb1809e9-96b3-4c06-9790-6f0c035f9723" valueTypeId="6f795970-0564-4692-8fba-8d71fb6b84d0"/>
+    <listType typeId="2ed3fc99-ff6c-4aad-83a2-09ad644a277b" valueTypeId="e4db8914-4c16-4226-a94b-0ef6d9af00a2"/>
+    <managerType typeId="10bbf512-bad8-4f0f-b057-48b2872dc8a2" valueTypeId="53fa7310-cf95-41f6-a93a-057cee4b2a58"/>
+    <recordSetType typeId="6b259fa1-c345-4f3c-be84-78759dd3601c" valueTypeId="f2a01626-e1f3-4de2-aeb6-289c075a3f60"/>
+    <recordKeyType typeId="1b203128-5bba-48f7-8001-8e038aff16e8" valueTypeId="453d1f72-1842-413c-8371-3dd9082940b5"/>
+    <recordType typeId="452e5fcc-0ac3-45c6-9dc5-837b8eb647a7" valueTypeId="6e4943f6-4c4e-427a-a190-ad28d0f777df"/>
+    <recordManagerType typeId="2875e871-845b-455e-80a1-77302b2337e9" valueTypeId="7c9c5051-a009-437e-84c1-91d43e7b55f6"/>
+  </producedTypes>
+  <name>инкСтандартныеВычетыНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные вычеты настройки</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1ca36cbf-75e6-4d1a-b7b3-2fcb4e419891">
+    <name>МаксимальнаяСуммаНаДетей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычет на детей, а так же вычет одиноким родителям и опекунам на доход</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4ec542ee-3fab-4a69-8a4e-59f0c238d167">
+    <name>Мрот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мрот</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

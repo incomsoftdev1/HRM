@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="289a311b-ddaf-4e17-9dc4-c4bcef37b7f1">
+  <producedTypes>
+    <selectionType typeId="fa7a7abc-36ce-4a25-b8e1-d0610561d581" valueTypeId="9511f2d5-0124-4db0-8c9c-d43e88598df3"/>
+    <listType typeId="9fbeda93-382f-41f6-ae69-1e11c4b7d1f1" valueTypeId="34b0d900-cd4a-4bc3-9421-8f4d593f2bb5"/>
+    <managerType typeId="0eb821be-fd83-4246-9627-617e6c2b0e16" valueTypeId="6df0b682-7b62-4452-9659-0370ab08c8a0"/>
+    <recordSetType typeId="ddd5d088-c661-473a-a2df-2741fb30d4c5" valueTypeId="3c97ea0f-bb09-47ce-a965-7f3cab6dd6fe"/>
+    <recordKeyType typeId="be24d7b2-fab7-4a7e-8977-bd81cd0c9276" valueTypeId="615e45bc-3459-40e1-8d18-15daa85e7e3a"/>
+    <recordType typeId="2a60eefa-2067-43a1-bd15-4dcd987f4b12" valueTypeId="e9cd468c-4c14-475e-b7bd-7a257d65e8a5"/>
+    <recordManagerType typeId="972195c4-4200-4571-99a2-cb3cb1a4043e" valueTypeId="09709851-3181-4a33-b0a2-f3323daa8501"/>
+  </producedTypes>
+  <name>инкПостоянныеНачисленияУдержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Постоянные начисления / удержания (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c12adbfd-4ea8-471b-973c-cb409fdc5b7c">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="61aa1be1-b37c-4cae-971d-d1ec20f4a71a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкСотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="42daad8d-3120-4e25-bd7b-7c9995d58d8c">
+    <name>НачислениеУдержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление удержание</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f68280ab-00c8-4b1c-99c5-092801f58ec7">
+    <name>ФормаПостоянныеНачисленияУдержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянные начисления / удержания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

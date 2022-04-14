@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c1f6d8a-92ca-409e-b27b-2b46fe6a5945">
+  <producedTypes>
+    <objectType typeId="3da617b5-d2c8-4885-b616-7c8e7391609e" valueTypeId="b480a458-8366-4814-aab3-462921431fc5"/>
+    <managerType typeId="970619fe-2795-4ee6-b7d8-a4ceae8f1bef" valueTypeId="8f3538b3-f7d6-429f-a7c0-f5c527bcce86"/>
+  </producedTypes>
+  <name>инкЗагрузкаВнешнихНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка внешних начислений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкЗагрузкаВнешнихНачислений.Form.Форма</defaultForm>
+  <attributes uuid="a690226a-fd60-4c05-b001-0551f4c9e090">
+    <name>Отчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e21d7d37-26f8-47e1-8169-efef8360c7a2">
+    <name>ПоказатьСостояниеПрогресса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать состояние прогресса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e5cfd42-5fd2-41ef-880e-96574a795c42">
+    <name>ПроводитьДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проводить документы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="01fb49c7-ef22-4345-97e2-60aaf8c284f9">
+    <producedTypes>
+      <objectType typeId="cf9e1f3e-d2bc-45f4-8d12-dd7ce443ad42" valueTypeId="e0526c91-188d-4887-95d2-07532998393d"/>
+      <rowType typeId="e786a343-ef3f-44e4-a3c0-bb28a809b7d3" valueTypeId="04f78433-6447-47dc-aa7b-5016d2084ff6"/>
+    </producedTypes>
+    <name>СформированныеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформированные документы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bc4ff707-216c-4d4d-987c-b8df5564b16c">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b736444d-b61b-4d40-b709-88573d864901">
+      <name>МесяцНачисления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Месяц начисления</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c2e8dbb2-9f9d-4c13-be2e-1fc64e314649">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

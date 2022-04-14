@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8080d3b-038f-4551-b490-0d2aa4edd109">
+  <name>инкВыборСтандартногоПериодаМесяц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор стандартного периода месяц (Инкомсофт)</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

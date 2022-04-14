@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DocumentJournal.инкКадровыеДокументы.StandardCommand.OpenList</commands>
+      <commands>Document.инкПриемНаРаботу.StandardCommand.OpenList</commands>
+      <commands>Document.инкУвольнение.StandardCommand.OpenList</commands>
+      <commands>Document.инкКадровыйПеревод.StandardCommand.OpenList</commands>
+      <commands>Document.инкБольничныйЛист.StandardCommand.OpenList</commands>
+      <commands>Document.инкОтпускРасчетПоСреднему.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

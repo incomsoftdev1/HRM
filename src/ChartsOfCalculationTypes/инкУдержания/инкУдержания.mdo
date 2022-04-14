@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82f078e6-00ad-486d-87ec-2459e0d2f8b1">
+  <producedTypes>
+    <objectType typeId="04d449f8-3753-41ce-ad7c-e58e2693b751" valueTypeId="9d919532-b0a9-420c-a439-f25911bebf88"/>
+    <refType typeId="edcb999e-f495-4d8d-9f47-1493cf1a3d2e" valueTypeId="a2e647b7-47f3-46b6-94ac-c5eb0d1f3b36"/>
+    <selectionType typeId="57cb73bf-5725-4e12-8f25-9663c87dacde" valueTypeId="279391ff-37a4-42d3-b77f-96f6c810ceaa"/>
+    <listType typeId="154d5010-6950-4072-b342-70ec81fb6655" valueTypeId="45bc360e-4490-427a-a2c3-17b7d1a0403f"/>
+    <managerType typeId="ffee722c-cb1a-4459-82cb-a3a2439adaeb" valueTypeId="fc111d12-91c0-4ada-950e-af0350fc49dd"/>
+    <displacingCalculationTypesType typeId="945bf354-6e8a-43a6-b6de-2c24cd2cde6d" valueTypeId="c2d5caed-8ec4-4db6-88bb-bc4f2fe54acb"/>
+    <displacingCalculationTypesRowType typeId="ef4380b7-7e27-4567-9957-832dc1cc16f5" valueTypeId="b84ecf1e-991b-4147-9b63-af76838ec80e"/>
+    <baseCalculationTypesType typeId="c736d2ed-f10e-410d-9d7c-4f896a77428b" valueTypeId="1bb902b7-c0e7-4a3d-a482-54bf616ed094"/>
+    <baseCalculationTypesRowType typeId="5b708649-9684-4237-9529-6a63c04dd34b" valueTypeId="1046bf3e-f9a8-499c-80d3-563d817faa35"/>
+    <leadingCalculationTypesType typeId="7f88965f-fe1b-485c-833c-41db8d05aa6b" valueTypeId="1ec4a55c-db1b-4036-b2b7-934e39b006ac"/>
+    <leadingCalculationTypesRowType typeId="b66f0a08-28d4-447b-b5b2-c6174e36c545" valueTypeId="14365671-8991-491e-b70d-febf6e76d7b0"/>
+  </producedTypes>
+  <name>инкУдержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.инкУдержания.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.инкУдержания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ActionPeriodIsBasic</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <codeLength>5</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCalculationTypes.инкУдержания.Form.ФормаВидаРасчета</defaultObjectForm>
+  <defaultListForm>ChartOfCalculationTypes.инкУдержания.Form.ФормаСписка</defaultListForm>
+  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.инкНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.инкУдержания</baseCalculationTypes>
+  <standardTabularSections>
+    <name>LeadingCalculationTypes</name>
+    <synonym>
+      <key></key>
+      <value>Ведущие виды расчета</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>CalculationType</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <standardTabularSections>
+    <name>DisplacingCalculationTypes</name>
+    <synonym>
+      <key></key>
+      <value>Вытесняющие виды расчета</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>CalculationType</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <standardTabularSections>
+    <name>BaseCalculationTypes</name>
+    <synonym>
+      <key></key>
+      <value>Базовые виды расчета</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>CalculationType</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <predefined>
+    <items id="6f724b8c-4263-46e3-86d5-0e9989f47206">
+      <name>Аванс</name>
+      <description>Аванс</description>
+      <code xsi:type="core:StringValue">
+        <value>10080</value>
+      </code>
+    </items>
+    <items id="ff78e41f-8065-44d1-9b45-4662031e1ad5">
+      <name>Алименты</name>
+      <description>Алименты</description>
+      <code xsi:type="core:StringValue">
+        <value>10097</value>
+      </code>
+      <base>ChartOfCalculationTypes.инкНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.инкНачисления.РайонныйКоэффициент</base>
+      <base>ChartOfCalculationTypes.инкНачисления.СевернаяНадбавка</base>
+      <leading>ChartOfCalculationTypes.инкНачисления.Оклад</leading>
+      <leading>ChartOfCalculationTypes.инкНачисления.РайонныйКоэффициент</leading>
+      <leading>ChartOfCalculationTypes.инкНачисления.СевернаяНадбавка</leading>
+    </items>
+    <items id="b776e39c-c9dc-4ca2-a53f-6d24b392d241">
+      <name>ВыплатаОтпускныхИБЛВТекущемМесяце</name>
+      <description>Выпл. отпуск. и б/л в текущем месяце</description>
+      <code xsi:type="core:StringValue">
+        <value>10400</value>
+      </code>
+    </items>
+    <items id="36374e9c-91f2-45f1-90c7-6078cd1b5ca7">
+      <name>Долг</name>
+      <description>Долг</description>
+      <code xsi:type="core:StringValue">
+        <value>20001</value>
+      </code>
+    </items>
+    <items id="c8e15380-26a1-4367-9516-13a6233d9f1d">
+      <name>ЗарплатаПредыдущегоМесяца</name>
+      <description>Зарплата предыдущего месяца</description>
+      <code xsi:type="core:StringValue">
+        <value>10500</value>
+      </code>
+    </items>
+    <items id="fb0d5836-ece1-4135-b01f-b818a991d8d3">
+      <name>ЗарплатаТекущегоМесяца</name>
+      <description>Зарплата текущего месяца</description>
+      <code xsi:type="core:StringValue">
+        <value>10501</value>
+      </code>
+    </items>
+    <items id="059da2e2-2d53-4b1c-b9e8-e43e6bd7606e">
+      <name>ИсполнительныйЛист</name>
+      <description>Исполнительный лист</description>
+      <code xsi:type="core:StringValue">
+        <value>10087</value>
+      </code>
+    </items>
+    <items id="8e4c78cd-2618-41fe-b3e9-cc46ab2a9238">
+      <name>МежрасчетныеВыплаты</name>
+      <description>Межрасчетные выплаты</description>
+      <code xsi:type="core:StringValue">
+        <value>10081</value>
+      </code>
+    </items>
+    <items id="28a95882-7ac4-41a9-b425-4d702d06da80">
+      <name>Подарки</name>
+      <description>Подарки</description>
+      <code xsi:type="core:StringValue">
+        <value>10089</value>
+      </code>
+    </items>
+    <items id="941b6116-f0b4-4aa6-af9c-578e579c38a0">
+      <name>ПрофсоюзныйВзнос</name>
+      <description>Профсоюзный взнос</description>
+      <code xsi:type="core:StringValue">
+        <value>20002</value>
+      </code>
+    </items>
+    <items id="f9bcea23-9fe7-4d83-aec6-70f7ebe5ca4e">
+      <name>ПрочиеУдержания</name>
+      <description>Прочие удержания</description>
+      <code xsi:type="core:StringValue">
+        <value>20003</value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="d4f2f39a-d0c3-4514-89db-a7fa2deb7993">
+    <name>ВПроцентах</name>
+    <synonym>
+      <key>ru</key>
+      <value>в %</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74c0e7f1-992a-4442-93a4-f56673e45f8c">
+    <name>Кредит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредит</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.инкХозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b400415-1bd6-4487-8e0c-256282cb8556">
+    <name>КодВСтаройПрограмме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код в старой программе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9da42d8b-d080-4ead-9d5e-964e6aa8fbb1">
+    <name>ФормаВидаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вида расчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ad2f28e-a040-4429-853d-f587c0300bbc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCalculationTypes>

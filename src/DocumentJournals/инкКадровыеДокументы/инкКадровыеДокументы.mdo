@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d573f93-894e-4074-9e96-29c4d86034ac">
+  <producedTypes>
+    <selectionType typeId="17cca2ee-be97-4099-bf97-c8655590081c" valueTypeId="dfd1873c-2196-4835-93ee-6d5bd267aee2"/>
+    <listType typeId="cff4472b-f43c-47fa-bcbc-842d8b604ab9" valueTypeId="e4b17cad-e3ec-40b6-97af-fc8c393096d6"/>
+    <managerType typeId="c991b501-719e-4f48-8d0b-24e3ca85d3a8" valueTypeId="087e1089-d96a-44b5-90e8-e74c1841a1b1"/>
+  </producedTypes>
+  <name>инкКадровыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.инкПриемНаРаботу</registeredDocuments>
+  <registeredDocuments>Document.инкУвольнение</registeredDocuments>
+  <registeredDocuments>Document.инкКадровыйПеревод</registeredDocuments>
+  <registeredDocuments>Document.инкБольничныйЛист</registeredDocuments>
+  <registeredDocuments>Document.инкОтпускРасчетПоСреднему</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="d93efb0d-8333-4ba8-ab7b-b70ee9b53e1d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.инкПриемНаРаботу.Attribute.Организация</references>
+    <references>Document.инкУвольнение.Attribute.Организация</references>
+    <references>Document.инкКадровыйПеревод.Attribute.Организация</references>
+  </columns>
+  <columns uuid="bf4929fe-34a8-4e76-b26a-d1b8c70ad303">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <references>Document.инкПриемНаРаботу.Attribute.Подразделение</references>
+    <references>Document.инкУвольнение.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="d5ff9288-b2f8-4d47-a4b4-409a9ccd84b3">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <references>Document.инкПриемНаРаботу.Attribute.Сотрудник</references>
+    <references>Document.инкУвольнение.Attribute.Сотрудник</references>
+  </columns>
+</mdclass:DocumentJournal>

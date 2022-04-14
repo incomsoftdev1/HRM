@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="158c2bde-e3c1-4805-995d-dd65a760b2f3">
+  <producedTypes>
+    <refType typeId="2949b931-10b0-4015-9356-58ec21a24610" valueTypeId="5f3304c4-3ceb-4195-9719-1284d97da98f"/>
+    <listType typeId="184e512c-517a-4e5d-b53a-9d019b48ecd3" valueTypeId="79c7b1b3-1b2d-4197-bf3c-b8a0c024e591"/>
+    <managerType typeId="2598fa29-fc98-40d8-8f7f-5ec6658c8ab4" valueTypeId="24ac02f2-caf8-4360-a0e8-9d6b47c4f536"/>
+  </producedTypes>
+  <name>инкСтатусыИностранцев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы иностранцев (Инкомсофт)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8fa21f9-5999-4cff-9b51-377a1ec92f45">
+    <name>ВременноПребывающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временно пребывающий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="461c65ce-14a5-4c18-9489-c0bb855c6c8f">
+    <name>ВременноПроживающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временно проживающий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c722f02-8d39-4be3-8404-bffcb548ffd7">
+    <name>Беженец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Беженец</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

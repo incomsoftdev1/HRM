@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e2142a6-73d1-47a2-9a97-1cfc6b4661f6">
+  <name>инкПодразделенияВыдачиДокументовЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения выдачи документов чтение (Инкомсофт)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96244bae-02b2-43da-85a0-a3c0fa43f0b2">
+  <name>инкРасчетЗарплатыБазовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты базовый (Инкомсофт)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

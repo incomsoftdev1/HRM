@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95c2bbf5-f3eb-483c-af7b-76893c09f5ea">
+  <name>инкКодыБюджетнойКлассификацииДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды бюджетной классификации добавление/изменение (Инкомсофт)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76c1ea82-99d5-429a-803c-9ea47bd27dea">
+  <producedTypes>
+    <objectType typeId="d7296339-19f5-4963-9864-8f61f6995987" valueTypeId="9eb939e7-74bc-413a-98c4-4b06775811cf"/>
+    <managerType typeId="ead66e04-f21e-42e5-83ec-12dbc0e48f0c" valueTypeId="b0db9b34-7eac-465f-99c0-980244411171"/>
+  </producedTypes>
+  <name>инкЗагрузкаДанныхПроизводственногоКалендаряИНормыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных производственного календаря и нормы времени (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкЗагрузкаДанныхПроизводственногоКалендаряИНормыВремени.Form.Форма</defaultForm>
+  <attributes uuid="54bcfd42-e074-47e9-8525-1a9244e21c02">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>9999</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>9999</value>
+    </editFormat>
+    <mask>9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="499ea012-d881-4f6c-be7b-5e73f316cf54">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

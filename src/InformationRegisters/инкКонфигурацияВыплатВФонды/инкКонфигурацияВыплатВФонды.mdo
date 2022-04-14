@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="353af634-8a77-4be5-a78b-08672f01e7f8">
+  <producedTypes>
+    <selectionType typeId="447d8561-7c88-4de3-bbfe-bbd7ad09f1ad" valueTypeId="1446bb33-53dc-4408-b856-b14fce81da9e"/>
+    <listType typeId="2fac7b9d-09b6-41dc-96fd-6c1386ab7170" valueTypeId="d23a6129-d84c-4b66-93ba-ab8af69ad03b"/>
+    <managerType typeId="cec773bc-c08f-4295-bd4c-982525fa613e" valueTypeId="11801f56-599b-4c4a-9d8f-54a3ad8307f5"/>
+    <recordSetType typeId="1da4580a-ed24-491d-be7a-4ed59b91853d" valueTypeId="52b5cc08-f2fe-492f-8d50-22e9dbc29fb0"/>
+    <recordKeyType typeId="18002f74-3718-4cdd-af10-09ae191228cb" valueTypeId="15bde4eb-fc8f-418a-bd12-5c4d958d3451"/>
+    <recordType typeId="8175b6d1-996a-404e-9ec0-0a6a4cda30d0" valueTypeId="abda9fee-499f-4f33-9147-c6c000ecf457"/>
+    <recordManagerType typeId="89dda109-1519-4696-9dd6-db3725f9c82f" valueTypeId="d51d4f8c-9eaa-44cd-99bc-ef4d9df71d5d"/>
+  </producedTypes>
+  <name>инкКонфигурацияВыплатВФонды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация выплат в фонды</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fe836ca8-fdea-4a5c-9bc0-fe726c291ac1">
+    <name>ПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ff8a031f-180b-44ad-a3cb-a7d8799b91ca">
+    <name>ФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФСС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="07cc238d-7a8c-4b31-8da7-4d9a7e9cf446">
+    <name>ФФОМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФФОМС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b438b62e-980f-4233-a119-6c6a5d588b14">
+    <name>СтрокаТарифаВЗН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка тарифа ВЗН</value>
+    </synonym>
+    <type>
+      <types>EnumRef.инкСтрокаТарифаВЗН</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

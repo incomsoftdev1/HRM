@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8005fbf3-9284-4bec-8836-d425769b2eb7">
+  <producedTypes>
+    <refType typeId="0082c369-f8f3-4c19-afe1-6614296c8b24" valueTypeId="9d03a0aa-7038-4c86-92ab-1bfe35509e8f"/>
+    <listType typeId="8a52c73f-aecb-44f0-84b6-cffdc4f88cba" valueTypeId="d9978bad-9254-4c87-aacb-ee0679f9ddeb"/>
+    <managerType typeId="780d740f-a479-4f00-a56d-e516ea79a96c" valueTypeId="e23ec6bf-52d2-4046-bffa-f9d2fd81b9e3"/>
+  </producedTypes>
+  <name>инкСтрокаТарифаВЗН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строка тарифа ВЗН</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5d3820fd-4778-4f7e-a25f-a22f520b1df2">
+    <name>ОблагаемаяБазаВЗН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обл. база на каждого работника с нач. года </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="557bb28e-cb20-433f-8796-68b0011086ca">
+    <name>ТарифВПределахЛимита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф в пределах лимита</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53c0ad70-7342-4026-a0ce-4dede5f9c42c">
+    <name>ТарифСверхЛимита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф сверх лимита</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bbe6e22-3e84-4a51-bd41-bc2aff0bcdfe">
+    <name>ТарифСвышеМРОТДляМСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф свыше МРОТ (для МСБ)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

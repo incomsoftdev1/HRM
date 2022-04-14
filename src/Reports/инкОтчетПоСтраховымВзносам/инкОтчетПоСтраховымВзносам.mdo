@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbf41b5d-2b7e-40de-a3c2-e05864bfe175">
+  <producedTypes>
+    <objectType typeId="f6090149-9d98-4aab-96c7-a7887dabc11b" valueTypeId="0fcc81cb-d78a-4873-bcbc-301722200454"/>
+    <managerType typeId="bd474b66-f40f-4988-bdaa-bbc1bc6405c6" valueTypeId="270c1b33-6761-40e4-9f34-4301a0a362c4"/>
+  </producedTypes>
+  <name>инкОтчетПоСтраховымВзносам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по страховым взносам (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.инкОтчетПоСтраховымВзносам.Form.ФормаОтчета</defaultForm>
+  <forms uuid="3fb25699-04a2-4cbe-b9ab-81f3c647e89d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bcea0d37-8495-4e86-98be-d756bb324c27">
+    <name>ФормаОтчетаАналитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета аналитика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2badbf72-abe6-4baf-8122-3328de430b83">
+    <name>ФормаОтчета2020Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="5bc4b33c-1100-4b30-963a-668b15c10db4">
+    <name>ФормаОтчета2020Кв4_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="fbd3a2b2-cf02-463d-99d8-e0737939dad4">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.1 и 1.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="931911db-b018-413f-972b-53326b6a5b2f">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="2f5ab829-143c-4805-8f74-3bd55534034a">
+    <name>ФормаОтчета2020Кв4_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="7533c186-b41a-4496-b1ff-c47353a7b805">
+    <name>ФормаОтчета2020Кв4_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="421d0e67-d52b-4687-9985-041f78b343f0">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 3</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

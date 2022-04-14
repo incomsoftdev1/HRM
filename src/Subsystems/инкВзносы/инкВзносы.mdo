@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5847d26-613f-4df8-a2f5-acf4eb79bee0">
+  <name>инкВзносы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взносы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.инкКонфигурацияВыплатВФонды</content>
+  <content>DataProcessor.инкРасчетВзносов</content>
+  <content>Report.инкОтчетПоСтраховымВзносам</content>
+</mdclass:Subsystem>

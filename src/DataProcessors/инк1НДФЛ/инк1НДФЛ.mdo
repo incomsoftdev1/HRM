@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5908604-7d8a-47a9-993c-fc935e9cf470">
+  <producedTypes>
+    <objectType typeId="e91292bc-d5e7-4f9d-bb4a-ea072338473a" valueTypeId="2b25a1f6-35d0-4ca3-9932-e1ba443b6269"/>
+    <managerType typeId="357fe8e8-6b44-41aa-afc8-b38003ae0c02" valueTypeId="0cc51aec-8ccb-4fb0-aa54-58765be3eaf9"/>
+  </producedTypes>
+  <name>инк1НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка 1 НДФЛ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инк1НДФЛ.Form.Форма</defaultForm>
+  <attributes uuid="799ad138-72b9-47d8-bbb8-91f0fec00d44">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2d927a8e-4b78-4cb5-bc7c-7d389bdb7ffc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a129de02-8a6a-4cd8-a8c0-5a7549bbf59a">
+    <name>инкПФ_MXL_ФормаРегистрНалоговогоУчетаПоНДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 1-НДФЛ с 2009 года</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

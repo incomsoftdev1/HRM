@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33c6a789-a66c-4350-a4b9-a4106c29d40f">
+  <producedTypes>
+    <refType typeId="ad998cc8-ac03-434a-9b79-21154c850e7e" valueTypeId="13ea4c09-988e-4e36-ac3c-0aad50817789"/>
+    <listType typeId="2f946e55-9623-4ddb-9cac-531e8e4c3288" valueTypeId="f4768701-943a-4021-9d16-527882b83d2a"/>
+    <managerType typeId="6e2b6455-1a5d-4827-8db8-cabaf90f3874" valueTypeId="3e8ed7f0-b60b-4b4d-a937-907c4d234959"/>
+  </producedTypes>
+  <name>инкВидУчетаДнейВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид учета дней (времени)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="75d62b58-e888-4704-ad22-db50254f8ff8">
+    <name>КалендарныеДни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарные дни</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="924deedf-56a1-4558-ba26-bd4fc79e833d">
+    <name>НормаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма времени</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

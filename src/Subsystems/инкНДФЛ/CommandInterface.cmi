@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>9ef90c7a-5d57-4fd6-b3e0-39cab4f82ef5</subsystems>
+    <subsystems>8e84c933-0c0c-4664-ab65-9eb1987e331a</subsystems>
+    <subsystems>5df76262-d538-4a5b-98cc-2273e9bd48de</subsystems>
+    <subsystems>b9151718-7592-45f1-95e8-59a5d14c86cc</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

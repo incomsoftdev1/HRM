@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="750ae85b-2002-48a8-a5c1-2e8649813589">
+  <name>инкНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДФЛ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>НДФЛОтчеты</subsystems>
+  <subsystems>НДФЛСправочники</subsystems>
+</mdclass:Subsystem>

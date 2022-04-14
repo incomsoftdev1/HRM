@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6ed36f4-f870-4c37-aa81-1f79a221af2f">
+  <producedTypes>
+    <refType typeId="cbad02d6-c5d0-4bfd-9bdb-a3ebe80d28c7" valueTypeId="b5993bee-4c50-4597-a9f5-50e577311d90"/>
+    <listType typeId="fd43b245-f82d-4abf-a299-e9287efca16b" valueTypeId="a81c3385-f570-429f-a576-63d889714eca"/>
+    <managerType typeId="c9fbaa8d-27a7-4f35-b53a-74edfc10be2e" valueTypeId="7a11a2f6-8c94-44cb-9808-ee5b7496d1b1"/>
+  </producedTypes>
+  <name>инкПериодыРегламентныхОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды регламентных отчетов (Инкомсофт)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64e30964-91a6-4844-8823-4404124d5de5">
+    <name>ПервыйКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>I квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31b3ce6e-46db-44d8-bf02-ceeffd53acf2">
+    <name>ВторойКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>II квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27369668-d22b-4e2d-a8f3-3ca0e614597b">
+    <name>ТретийКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>III квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb2a1d36-2417-4143-b845-04e4542f8958">
+    <name>ЧетвертыйКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>VI квартал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

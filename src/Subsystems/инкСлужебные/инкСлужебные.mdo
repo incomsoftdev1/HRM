@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="726fef1b-e137-44a7-b111-d6cac6a77a97">
+  <name>инкСлужебные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные (Инкомсофт)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>инкОбновлениеКонфигурацииСлужебный</subsystems>
+  <subsystems>инкОтпуска</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e519915-3e52-46f4-870b-ce193f976314">
+  <name>НДФЛОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.инк2НДФЛ</content>
+  <content>DataProcessor.инк1НДФЛ</content>
+  <parentSubsystem>Subsystem.инкНДФЛ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b48b480-db34-495e-bf6f-8ad23e71ab6b">
+  <producedTypes>
+    <refType typeId="82465aef-dc63-47ca-a3ad-6916e6d91696" valueTypeId="bdcff0f5-cf74-4862-bfa9-e6588f23a910"/>
+    <listType typeId="7ca7906f-59f3-4ef1-aee8-360127ebe845" valueTypeId="dec63d9a-50fd-4839-b5a6-716506af2462"/>
+    <managerType typeId="f5e30f3e-de1f-496a-82d3-dd5512e2bd7c" valueTypeId="368d765f-6338-4465-a3a3-17c668daed03"/>
+  </producedTypes>
+  <name>инкНДФЛСтавкиНалогообложенияРезидента</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДФЛ ставки налогообложения резидента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="19d5b34b-d42f-44ae-b5e0-d88dbea3a070">
+    <name>Ставка09</name>
+    <synonym>
+      <key>ru</key>
+      <value>13% (до 2015 - 9%, для нерезидента 15%)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e70a13a-c91d-4da9-86f3-cd9ee0814a11">
+    <name>Ставка13</name>
+    <synonym>
+      <key>ru</key>
+      <value>13% (для нерезидента 30%)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a159160-e588-440b-9f7b-a1e296b497c0">
+    <name>Ставка35</name>
+    <synonym>
+      <key>ru</key>
+      <value>35% (для нерезидента 30%)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eea3f7d5-f097-4b3a-9443-1519b441c3cb">
+    <name>Ставка30</name>
+    <synonym>
+      <key>ru</key>
+      <value>30%</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

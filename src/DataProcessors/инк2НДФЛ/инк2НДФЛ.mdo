@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0e1d943-0084-4880-9ec4-06a5377a6d6b">
+  <producedTypes>
+    <objectType typeId="e33306dc-2dd8-4370-99f1-59013166ef6c" valueTypeId="3061a001-3ece-4aaf-b34f-504491c0ddd9"/>
+    <managerType typeId="80373c42-931b-4c52-bfc9-78320af8b199" valueTypeId="667ea4fc-0c1e-47cf-8e4a-a781847ba8ad"/>
+  </producedTypes>
+  <name>инк2НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка 2 НДФЛ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инк2НДФЛ.Form.Форма</defaultForm>
+  <attributes uuid="d921b51c-abb8-4b22-983e-8f21a90b506d">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28172e21-98d0-43cf-b77c-e8b3c77f473a">
+    <name>СуммаУплаченногоНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма уплаченного налога</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9de7bf1-2e1a-4574-930e-d49d85dbafcd">
+    <name>НомерКорректировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер корректировки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6f490431-8b16-4976-8430-2cf3795f7f29">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

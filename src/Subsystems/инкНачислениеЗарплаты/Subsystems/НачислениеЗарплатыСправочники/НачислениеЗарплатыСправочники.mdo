@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb26c9cb-c754-41ff-bd40-f4a77b057c07">
+  <name>НачислениеЗарплатыСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.инкСотрудники</content>
+  <content>Catalog.инкОрганизации</content>
+  <content>Catalog.инкПодразделения</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <content>CommonCommand.инкНормаВремени</content>
+  <parentSubsystem>Subsystem.инкНачислениеЗарплаты</parentSubsystem>
+</mdclass:Subsystem>

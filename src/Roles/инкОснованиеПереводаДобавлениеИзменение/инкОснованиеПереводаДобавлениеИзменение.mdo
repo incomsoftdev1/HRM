@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c9269e3-26e3-4b6a-bf9e-16fc204df5f7">
+  <name>инкОснованиеПереводаДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание перевода добавление/изменение (Инкомсофт)</value>
+  </synonym>
+</mdclass:Role>

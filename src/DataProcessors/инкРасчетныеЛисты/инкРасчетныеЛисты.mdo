@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb17b326-ef19-44db-8823-287bf60c1ebd">
+  <producedTypes>
+    <objectType typeId="32fb15b9-c43f-49ad-9a7b-280496a2673b" valueTypeId="b4f5d571-899f-481c-8cc2-3b28ca03a1be"/>
+    <managerType typeId="66cd1690-4ee9-4344-9202-0dd544722507" valueTypeId="cadd076a-57b1-4d87-8cd8-9bcf04f7a448"/>
+  </producedTypes>
+  <name>инкРасчетныеЛисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные листы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкРасчетныеЛисты.Form.ФормаОтладки</defaultForm>
+  <forms uuid="16ec1375-f736-48e0-9749-ecb83ce7ee33">
+    <name>ФормаОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отладки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="96b6c4f0-b221-4107-9d81-dcee9f3bb415">
+    <name>ПФ_MXL_РасчетныйЛисток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный листок</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

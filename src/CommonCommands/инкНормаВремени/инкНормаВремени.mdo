@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fdda7da-7c08-4744-a55c-33c5a1b5d11e">
+  <name>инкНормаВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норма времени</value>
+  </synonym>
+  <group>NavigationPanelSeeAlso</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

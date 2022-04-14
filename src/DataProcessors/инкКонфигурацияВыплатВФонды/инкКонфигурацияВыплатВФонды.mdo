@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7ad730b-7c5f-4e94-909a-396027a4cb61">
+  <producedTypes>
+    <objectType typeId="1dce255d-ac3e-4a06-a44c-ae1fc5554233" valueTypeId="cf45127b-f55c-4633-b684-97bf8887c548"/>
+    <managerType typeId="42121780-d2cb-49de-988a-ca893d882ae5" valueTypeId="41e74a20-92ba-462f-a681-d0b089fd1e8c"/>
+  </producedTypes>
+  <name>инкКонфигурацияВыплатВФонды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация выплат в фонды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкКонфигурацияВыплатВФонды.Form.Форма</defaultForm>
+  <forms uuid="eb662d25-1675-4ab6-b30a-5bbddfa66a1e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

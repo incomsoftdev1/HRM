@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7d1e254-267e-48a6-9f84-69d0d1faf032">
+  <name>инкДоходНДФЛДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доход НДФЛ добавление/изменение (Инкомсофт)</value>
+  </synonym>
+</mdclass:Role>

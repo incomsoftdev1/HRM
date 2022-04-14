@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08b9302c-4366-4e6f-b329-c31fb836b338">
+  <producedTypes>
+    <refType typeId="ef196d1e-7875-4851-97a3-22728daf0079" valueTypeId="ecaffd84-568c-431d-a46c-fdcfef692588"/>
+    <listType typeId="7ad11b9f-aad4-40ba-b13c-d8f057073666" valueTypeId="c8a080e9-cc9b-4687-ae48-05b4fe95d933"/>
+    <managerType typeId="c9a7c016-4c69-473d-b8ad-bdbac36bd9a5" valueTypeId="f5af54c2-c89f-4274-aa04-007208dc7bac"/>
+  </producedTypes>
+  <name>инкВидРасчетаОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид расчета отпуска</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8c091ebf-3a8c-41e2-ac37-894bf8ca7421">
+    <name>Отпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8d3cdb0-cb3a-4999-a93d-ea539ce40102">
+    <name>ПоСреднему</name>
+    <synonym>
+      <key>ru</key>
+      <value>По-среднему</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

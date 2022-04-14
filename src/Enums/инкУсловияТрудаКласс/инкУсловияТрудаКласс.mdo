@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="385b5ad0-dbc7-4c9f-aaf6-06a911d7ed81">
+  <producedTypes>
+    <refType typeId="f01fc130-dd01-4405-9697-0338ab76f80a" valueTypeId="9957a65b-8240-41ac-bbd8-0298eb21e0a5"/>
+    <listType typeId="e9179c7e-5af9-4178-9a0d-c9e87ae318fb" valueTypeId="abd6bb1d-68bb-4f76-8db5-d644f6ff43e4"/>
+    <managerType typeId="93b619cc-fa6a-41a6-b05e-db568a8cf6bf" valueTypeId="6632f196-12ae-48a1-aed9-fe194d739c3c"/>
+  </producedTypes>
+  <name>инкУсловияТрудаКласс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия труда класс</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d59b24ee-3e22-4168-9264-2c17657a402e">
+    <name>Опасный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опасный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee7ffef6-ad94-41b1-86fb-387ff2b7fc58">
+    <name>Вредный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08268cab-bec8-4e58-a7af-ef08ac8b0b5c">
+    <name>Допустимый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b798958-c020-4b02-be40-fdfe5847ee6e">
+    <name>Оптимальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптимальный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

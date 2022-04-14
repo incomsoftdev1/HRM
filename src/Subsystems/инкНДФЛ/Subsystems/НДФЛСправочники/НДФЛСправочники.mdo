@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cccf6110-3b7b-4cd1-97f7-f581f20a6026">
+  <name>НДФЛСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.инкВычетыНДФЛ</content>
+  <content>Catalog.инкДоходНДФЛ</content>
+  <content>InformationRegister.инкСтандартныеВычетыНастройки</content>
+  <parentSubsystem>Subsystem.инкНДФЛ</parentSubsystem>
+</mdclass:Subsystem>

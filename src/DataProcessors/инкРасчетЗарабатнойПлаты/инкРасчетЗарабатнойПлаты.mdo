@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc7f09a0-a287-423a-afb4-027e9113eb4d">
+  <producedTypes>
+    <objectType typeId="ed143e77-b1eb-42ed-be5a-0b3f1f47da33" valueTypeId="f6adb2bf-32b7-4ae0-9b33-380d8b64ff8f"/>
+    <managerType typeId="391a29b3-cc3e-4d4e-b4d6-248758db88cd" valueTypeId="bdd6a452-b4aa-4d20-97e0-215f5da54512"/>
+  </producedTypes>
+  <name>инкРасчетЗарабатнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет заработной зарплаты (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкРасчетЗарабатнойПлаты.Form.ФормаОтладки</defaultForm>
+  <attributes uuid="068bd6ea-28c5-42ff-9ed5-8b1c2e41fe78">
+    <name>ДокументРасчетаЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ расчета зарплаты</value>
+    </synonym>
+    <comment>Реквизит для отдалки в режиме 1С:Пердприятие</comment>
+    <type>
+      <types>DocumentRef.инкНачислениеЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="aa6c6a58-208c-420f-8207-0b1978895fbd">
+    <name>ФормаОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отладки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

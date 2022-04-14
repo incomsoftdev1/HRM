@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c650a84-2b35-4bb4-863e-ddbda425bf66">
+  <name>инкЗарплатаКадрыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата кадры клиент (Инкомсофт)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
