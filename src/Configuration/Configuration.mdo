@@ -1772,6 +1772,7 @@
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
