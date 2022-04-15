@@ -14,9 +14,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>1/0:5a5bbc77-a138-442c-91e8-462785b6b0cc</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПутьКФайлуРасширеннаяПодсказка</name>
           <id>3</id>
@@ -884,7 +881,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.инкЗагрузкаВнешнихНачислений</types>
+      <types>DataProcessorObject.инкЗагрузкаВнешнихНачислений_20220414</types>
     </valueType>
     <view>
       <common>true</common>

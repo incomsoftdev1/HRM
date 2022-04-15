@@ -10,6 +10,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>DataAdministration</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>EventLog</name>
 			<value>true</value>
 		</right>
@@ -47,6 +51,10 @@
 		</right>
 		<right>
 			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 		<right>

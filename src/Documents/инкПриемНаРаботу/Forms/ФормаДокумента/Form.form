@@ -1833,7 +1833,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>2:80ff06cb-62c0-4b4f-be96-7e2a4ba0bd0d</command>
+        <command>0</command>
         <userVisible>
           <common>true</common>
         </userVisible>

@@ -249,13 +249,6 @@
         <value>10016</value>
       </code>
     </items>
-    <items id="1761dda0-e59e-4c3f-9df9-d355df5d1b14">
-      <name>ОсновнаяЗарплата</name>
-      <description>Основная зарплата</description>
-      <code xsi:type="core:StringValue">
-        <value>ОЗП</value>
-      </code>
-    </items>
     <items id="5d9135c6-c47b-40b9-9624-f418cfb44139">
       <name>Подарки</name>
       <description>Подарки</description>
@@ -328,27 +321,11 @@
       <base>ChartOfCalculationTypes.инкНачисления.Оклад</base>
       <leading>ChartOfCalculationTypes.инкНачисления.Оклад</leading>
     </items>
-    <items id="8668e307-a9b4-44be-8ebd-ff91119f7203">
-      <name>ОсновнойРайонныйКоэффициент</name>
-      <description>Районный коэффициент</description>
-      <code xsi:type="core:StringValue">
-        <value>ОРК</value>
-      </code>
-      <base>ChartOfCalculationTypes.инкНачисления.Оклад</base>
-      <leading>ChartOfCalculationTypes.инкНачисления.Оклад</leading>
-    </items>
     <items id="cb362bcb-5e28-4b6d-b251-6cdefd382bf1">
       <name>Сальдо</name>
       <description>Сальдо</description>
       <code xsi:type="core:StringValue">
         <value>10070</value>
-      </code>
-    </items>
-    <items id="995817ec-8a59-4c2f-b219-4f780d436699">
-      <name>СдельнаяОплатаТруда</name>
-      <description>Сдельная опата труда</description>
-      <code xsi:type="core:StringValue">
-        <value>СОТ</value>
       </code>
     </items>
     <items id="259df5d9-ea38-4c94-a13e-e4ef3251eec3">
@@ -359,13 +336,6 @@
       </code>
       <base>ChartOfCalculationTypes.инкНачисления.Оклад</base>
       <leading>ChartOfCalculationTypes.инкНачисления.Оклад</leading>
-    </items>
-    <items id="066a2e14-60bb-4cb2-b946-ec42ea63c822">
-      <name>ОсновнаяСевернаяНадбавка</name>
-      <description>Северная надбавка</description>
-      <code xsi:type="core:StringValue">
-        <value>ОСН</value>
-      </code>
     </items>
   </predefined>
   <attributes uuid="2dd8cfc3-8f07-441e-b46e-64b8caead48e">
@@ -544,10 +514,11 @@
       <value>Код в старой программе</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>5</length>
-      </stringQualifiers>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

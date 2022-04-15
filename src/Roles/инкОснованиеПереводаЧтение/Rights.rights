@@ -10,6 +10,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>DataAdministration</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>EventLog</name>
 			<value>true</value>
 		</right>
@@ -47,6 +51,10 @@
 		</right>
 		<right>
 			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -103,69 +111,6 @@
 		<right>
 			<name>EditDataHistoryVersionComment</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.инкОснованиеПеревода.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 </Rights>

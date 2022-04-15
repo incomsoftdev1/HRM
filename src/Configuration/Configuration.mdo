@@ -1936,7 +1936,7 @@
   <dataProcessors>DataProcessor.инк2НДФЛ</dataProcessors>
   <dataProcessors>DataProcessor.инкВедомостьНачисленийУдержаний</dataProcessors>
   <dataProcessors>DataProcessor.инкВыгрузкаНачисленийЗарплатыВБухгалтерию</dataProcessors>
-  <dataProcessors>DataProcessor.инкЗагрузкаВнешнихНачислений</dataProcessors>
+  <dataProcessors>DataProcessor.инкЗагрузкаВнешнихНачислений_20220414</dataProcessors>
   <dataProcessors>DataProcessor.инкКонфигурацияВыплатВФонды</dataProcessors>
   <dataProcessors>DataProcessor.инкЗагрузкаДанныхПроизводственногоКалендаряИНормыВремени</dataProcessors>
   <dataProcessors>DataProcessor.инкРасчетВзносов</dataProcessors>
