@@ -4,13 +4,13 @@
     <objectType typeId="3da617b5-d2c8-4885-b616-7c8e7391609e" valueTypeId="b480a458-8366-4814-aab3-462921431fc5"/>
     <managerType typeId="970619fe-2795-4ee6-b7d8-a4ceae8f1bef" valueTypeId="8f3538b3-f7d6-429f-a7c0-f5c527bcce86"/>
   </producedTypes>
-  <name>инкЗагрузкаВнешнихНачислений_20220414</name>
+  <name>инкЗагрузкаВнешнихНачислений</name>
   <synonym>
     <key>ru</key>
     <value>Загрузка внешних начислений</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.инкЗагрузкаВнешнихНачислений_20220414.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.инкЗагрузкаВнешнихНачислений.Form.Форма</defaultForm>
   <attributes uuid="a690226a-fd60-4c05-b001-0551f4c9e090">
     <name>Отчет</name>
     <synonym>

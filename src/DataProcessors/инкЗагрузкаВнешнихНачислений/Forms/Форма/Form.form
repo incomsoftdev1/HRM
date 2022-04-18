@@ -881,7 +881,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.инкЗагрузкаВнешнихНачислений_20220414</types>
+      <types>DataProcessorObject.инкЗагрузкаВнешнихНачислений</types>
     </valueType>
     <view>
       <common>true</common>

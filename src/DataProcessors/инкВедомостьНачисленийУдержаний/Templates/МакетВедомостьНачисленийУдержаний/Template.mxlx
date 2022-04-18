@@ -409,7 +409,7 @@
 		<verticalAlignment>Center</verticalAlignment>
 		<backColor>#FFFFCC</backColor>
 		<pattern>Solid</pattern>
-		<textPlacement>Auto</textPlacement>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>

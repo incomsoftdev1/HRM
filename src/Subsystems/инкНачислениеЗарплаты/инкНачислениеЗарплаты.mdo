@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonCommand.инкРасчетныеЛистки</content>
-  <content>DataProcessor.инкЗагрузкаВнешнихНачислений_20220414</content>
+  <content>DataProcessor.инкЗагрузкаВнешнихНачислений</content>
   <content>DataProcessor.инкВыгрузкаНачисленийЗарплатыВБухгалтерию</content>
   <subsystems>НачислениеЗарплатыДокументы</subsystems>
   <subsystems>НачислениеЗарплатыСправочники</subsystems>
