@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>setup.icns</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.1c.v8.apps.setup</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>ar</string>
+		<string>az</string>
+		<string>bg</string>
+		<string>hu</string>
+		<string>hy</string>
+		<string>it</string>
+		<string>de</string>
+		<string>el</string>
+		<string>en</string>
+		<string>es</string>
+		<string>kk</string>
+		<string>ka</string>
+		<string>lt</string>
+		<string>lv</string>
+		<string>pl</string>
+		<string>ro</string>
+		<string>ru</string>
+		<string>tk</string>
+		<string>tr</string>
+		<string>uk</string>
+		<string>vi</string>
+		<string>zh</string>
+		<string>fr</string>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>setup</string>
+	<key>CFBundleName</key>
+	<string>setup</string>
+	<key>CFBundleDisplayName</key>
+	<string>setup</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>8.3.19.1303</string>
+	<key>CFBundleShortVersionString</key>
+	<string>8.3.19.1303</string>
+	<key>CFBundleGetInfoString</key>
+	<string>setup version 8.3.19.1303, © 1C-Soft LLC 1996-2021</string>
+	<key>CFBundleLongVersionString</key>
+	<string>8.3.19.1303, © 1C-Soft LLC 1996-2021</string>
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Copyright 1C-Soft LLC 1996-2021</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.12.0</string>
+	<key>LSRequiresCarbon</key>
+	<true/>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
